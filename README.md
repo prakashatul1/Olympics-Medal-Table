@@ -60,4 +60,4 @@ you click on any of the headers to sort the data.
 
 To view map copy paste this link in url ---->>  http://127.0.0.1:8000/map 
 
-## Note: You can also do edit operation by click on the rank of the country on table and see the changes in the graph. 
+## Note: You can also do edit operation by clicking on the rank of the country on table and see the changes in the graph. 
