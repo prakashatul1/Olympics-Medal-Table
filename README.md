@@ -3,15 +3,13 @@
 
 ### Open you terminal first
 
-### 1. Create the virtual environment
+### 1. Create the virtual environment with python3
 
-virtualenv mypython
+virtualenv -p python3 mypython
 
 ### 2. Activate the virtual environment
 
 source mypython/bin/activate  (for Mac OS/Linux)
-
-mypthon\Scripts\activate (Windows)
 
 ### 3. Clone the project
 
@@ -19,42 +17,46 @@ git clone https://github.com/prakashatul1/Olympics-Medal-Table.git
 
 ### 4. Go to project root
 
-cd olympics_medal_table/
+cd Olympics-Medal-Table/
 
-### 5. Install requirements.txt
+### 5. Install all the dpendencies listed in requiremnets.txt
 
-pip install -r requirements.txt
+It is advisable to install all the dependencies seperately as different systems will support different version of liabraries 
 
-### 6. Makemigrations and migrate
+### 6. Setting up the database
+
+use this link ---->> https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04 for setting up the database if you are using ubuntu 14.04
+
+### 7. Makemigrations and migrate
 
 python manage.py makemigrations
 
 python manage.py migrate
 
-### 7. scrape the data to the database
+### 8. scrape the data to the database
 
 python manage.py scrape_table
 
-### 8. Run Server in local
+### 9. Run Server in local
 
 python manage.py runserver
 
-### 9. Open project in web browser
+### 10. Open project in web browser
 
 Copy paste this link in url ---->>  http://127.0.0.1:8000/
 
-### 10. Login with credentials
+### 11. Login with credentials
 
 username = moody
 password = moodyanalytics
 
-### 11. Checkout the table in db
+### 12. Checkout the table in db
 
 you can view the table by clicking on the "Country" link
 
 you click on any of the headers to sort the data.
 
-### 12. Checkout the map
+### 13. Checkout the map
 
 To view map copy paste this link in url ---->>  http://127.0.0.1:8000/map 
 
