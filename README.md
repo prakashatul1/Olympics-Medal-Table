@@ -1,7 +1,7 @@
 # Olympics-Medal-Table
 ## Getting started
 
-### Open you terminal first
+### Open your terminal first
 
 ### 1. Create the virtual environment with python3
 
