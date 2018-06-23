@@ -48,6 +48,7 @@ Copy paste this link in url ---->>  http://127.0.0.1:8000/
 ### 11. Login with credentials
 
 username = moody
+
 password = moodyanalytics
 
 ### 12. Checkout the table in db
