@@ -37,27 +37,29 @@ python manage.py migrate
 
 python manage.py scrape_table
 
-### 9. Run Server in local
+### 9. Create a superuser
+
+python manage.py createsuperuser
+
+### 10. Run Server in local
 
 python manage.py runserver
 
-### 10. Open project in web browser
+### 11. Open project in web browser
 
 Copy paste this link in url ---->>  http://127.0.0.1:8000/
 
-### 11. Login with credentials
+### 12. Login with credentials
 
-username = moody
+login with credentials you entered while creating superuser
 
-password = moodyanalytics
-
-### 12. Checkout the table in db
+### 13. Checkout the table in db
 
 you can view the table by clicking on the "Country" link
 
 you click on any of the headers to sort the data.
 
-### 13. Checkout the map
+### 14. Checkout the map
 
 To view map copy paste this link in url ---->>  http://127.0.0.1:8000/map 
 
