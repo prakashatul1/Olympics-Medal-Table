@@ -5,7 +5,9 @@
 
 ### 1. Create the virtual environment with python3
 
+'''
 virtualenv -p python3 mypython
+'''
 
 ### 2. Activate the virtual environment
 
