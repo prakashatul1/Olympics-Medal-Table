@@ -10,17 +10,17 @@ virtualenv -p python3 mypython
 ```
 
 ### 2. Activate the virtual environment
-
+```
 source mypython/bin/activate  (for Mac OS/Linux)
-
+```
 ### 3. Clone the project
-
+```
 git clone https://github.com/prakashatul1/Olympics-Medal-Table.git
-
+```
 ### 4. Go to project root
-
+```
 cd Olympics-Medal-Table/
-
+```
 ### 5. Install all the dpendencies listed in requiremnets.txt
 
 It is advisable to install all the dependencies seperately as different systems will support different version of liabraries 
@@ -30,23 +30,23 @@ It is advisable to install all the dependencies seperately as different systems 
 use this link ---->> https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04 for setting up the database if you are using ubuntu 14.04
 
 ### 7. Makemigrations and migrate
-
+```
 python manage.py makemigrations
 
 python manage.py migrate
-
+```
 ### 8. scrape the data to the database
-
+```
 python manage.py scrape_table
-
+```
 ### 9. Create a superuser
-
+```
 python manage.py createsuperuser
-
+```
 ### 10. Run Server in local
-
+```
 python manage.py runserver
-
+```
 ### 11. Open project in web browser
 
 Copy paste this link in url ---->>  http://127.0.0.1:8000/
