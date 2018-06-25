@@ -4,6 +4,9 @@ from .models import Country
 # Register your models here.
 
 class CountryAdmin(admin.ModelAdmin):
+
+    '''country admin to register country model in admin site'''
+
     list_display = ('rank', 'noc', 'short', 'gold', 'silver', 'bronze', 'total')
 
     def has_change_permission(self, request, obj=None):

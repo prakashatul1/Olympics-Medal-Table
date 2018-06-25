@@ -5,7 +5,7 @@ from winter_olympics_2018.models import Country
 
 
 class Command(BaseCommand):
-    '''one time script used for scraping datafrom the wiki table'''
+    '''one time script used for scraping data from the wiki table'''
     def handle(self, *args, **options):
         url = "https://en.wikipedia.org/wiki/2018_Winter_Olympics_medal_table"
         web = requests.get(url)
